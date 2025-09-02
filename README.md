@@ -1,6 +1,6 @@
 # Personal Portfolio Designs
 
-A collection of personal portfolio projects created in **React** and **Tailwind**.  
+A collection of personal portfolio projects created in **React**.  
 
 ---
 
