@@ -15,7 +15,7 @@
 }
 
 .nav-links {
-  display: flex;
+  display: flex; 
   width: 50%;
   justify-content: space-between;
   align-items: center;
@@ -33,3 +33,29 @@
 .nav-links a:hover {
   color: rgba(203, 153, 126, 0.55);
 }
+
+@media(max-width: 1023px) { 
+  .nav-links { 
+    display: none;
+  }
+
+  .header ion-icon { 
+    color: #cb997e;
+    font-size: 3rem;
+    display: block;
+  }
+}
+
+@media(min-width: 1024px) { 
+  .nav-links {
+    display: flex; 
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header ion-icon { 
+    display: none;
+  }
+}
+
