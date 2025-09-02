@@ -1,0 +1,35 @@
+:root {
+  --primary-color: #cb997e;
+}
+
+.header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  color: var(--primary-color);
+  font-size: 3rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-links {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links a {
+  font-family: 'Poppins', sans-serif;
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 300;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: rgba(203, 153, 126, 0.55);
+}

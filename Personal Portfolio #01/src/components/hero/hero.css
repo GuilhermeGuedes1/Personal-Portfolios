@@ -1,0 +1,75 @@
+:root {
+  --primary: #cb997e;
+  --secondary: #780000;
+}
+
+.hero {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-background {
+  background: url(../../assets/artist.jpg) no-repeat center/cover;
+  max-width: 1280px;
+  width: 100%;
+  height: 750px;
+  margin: auto;
+  position: relative;
+  background-color: #ccc;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(120, 0, 0, 0.36);
+}
+
+.call-container {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+}
+
+.call-to-action {
+  font-family: 'Poppins', sans-serif;
+  color: var(--secondary);
+  padding: 12px 20px;
+  font-weight: 300;
+  background-color: rgba(203, 153, 126, 0.78);
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.call-to-action:hover {
+  background-color: var(--primary);
+  transform: scale(1.05);
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 15px 0;
+}
+
+.social-links img {
+  width: 30px;
+  transition: transform 0.2s ease;
+}
+
+.social-links img:hover {
+  transform: scale(1.2);
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  color: var(--primary);
+  margin-top: 20px;
+  font-size: 1.2rem;
+}

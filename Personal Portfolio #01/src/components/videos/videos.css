@@ -1,0 +1,33 @@
+.videos {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.videos-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #cb997e;
+  font-family: 'Poppins', sans-serif;
+}
+
+.videos-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.video-wrapper {
+  flex: 1 1 560px;
+  max-width: 560px;
+  aspect-ratio: 16 / 9;
+  background: #000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.video-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
